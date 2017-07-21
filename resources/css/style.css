@@ -18,6 +18,13 @@ header {
   position: fixed;
   z-index: 10;
   background-color: black;
+  justify-content: flex-start;
+
+}
+
+.logo{
+  flex-grow: 1;
+
 }
 
 .logo img {
@@ -48,6 +55,7 @@ nav a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-top: 70px;
 
 }
 
@@ -61,6 +69,7 @@ h2, h4{
 #featured {
   width: 1000px;
   text-align: center;
+  padding-top: 70px;
 }
 
 #featured .flex_items {
